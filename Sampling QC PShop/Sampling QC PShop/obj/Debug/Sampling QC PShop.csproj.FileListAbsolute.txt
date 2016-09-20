@@ -1,0 +1,37 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\bin\Debug\Sampling QC PShop.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\bin\Debug\Sampling QC PShop.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Main.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling QC PShop.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling QC PShop.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling QC PShop.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.About.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Thickness.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Left_Side.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Right_Side.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Hardness.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Adhesion.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Glass.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.About.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Adhesion.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Hardness.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Main.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Properties.Resources.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Thickness.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling QC PShop.csproj.GenerateResource.Cache
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\bin\Debug\Sampling QC PShop.pdb
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling QC PShop.pdb
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Gloss.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Report.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Thickness_Report.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Adhesion_Report.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Gloss_Report.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Hardness_Report.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Thickness_summary.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Login.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\bin\Debug\Sampling QC PShop.exe
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling QC PShop.exe

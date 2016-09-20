@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sampling QC PShop", "Sampling QC PShop\Sampling QC PShop.csproj", "{4F0CDD1C-FD1A-47D3-A30F-A8B3E07E68A9}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "SmartDeviceCab1", "SmartDeviceCab1\SmartDeviceCab1.vddproj", "{629BB98F-E9C0-4F28-BA31-82B3F78AD0D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F0CDD1C-FD1A-47D3-A30F-A8B3E07E68A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0CDD1C-FD1A-47D3-A30F-A8B3E07E68A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0CDD1C-FD1A-47D3-A30F-A8B3E07E68A9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4F0CDD1C-FD1A-47D3-A30F-A8B3E07E68A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0CDD1C-FD1A-47D3-A30F-A8B3E07E68A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0CDD1C-FD1A-47D3-A30F-A8B3E07E68A9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{629BB98F-E9C0-4F28-BA31-82B3F78AD0D1}.Debug|Any CPU.ActiveCfg = Debug
+		{629BB98F-E9C0-4F28-BA31-82B3F78AD0D1}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

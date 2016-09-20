@@ -1,0 +1,217 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F0CDD1C-FD1A-47D3-A30F-A8B3E07E68A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sampling_QC_PShop</RootNamespace>
+    <AssemblyName>Sampling QC PShop</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.2</OSVersion>
+    <DeployDirSuffix>Sampling_QC_PShop</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <StartupObject>Sampling_QC_PShop.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=3.0.3600.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adhesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adhesion.Designer.cs">
+      <DependentUpon>Adhesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adhesion_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adhesion_Report.Designer.cs">
+      <DependentUpon>Adhesion_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gloss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gloss.Designer.cs">
+      <DependentUpon>Gloss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gloss_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gloss_Report.Designer.cs">
+      <DependentUpon>Gloss_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hardness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hardness.Designer.cs">
+      <DependentUpon>Hardness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hardness_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hardness_Report.Designer.cs">
+      <DependentUpon>Hardness_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adhesion.resx">
+      <DependentUpon>Adhesion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adhesion_Report.resx">
+      <DependentUpon>Adhesion_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gloss.resx">
+      <DependentUpon>Gloss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gloss_Report.resx">
+      <DependentUpon>Gloss_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hardness.resx">
+      <DependentUpon>Hardness.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hardness_Report.resx">
+      <DependentUpon>Hardness_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thickness Report.resx">
+      <DependentUpon>Thickness Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thickness.resx">
+      <DependentUpon>Thickness.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thickness_summary.resx">
+      <DependentUpon>Thickness_summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thickness Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thickness Report.Designer.cs">
+      <DependentUpon>Thickness Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thickness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thickness.Designer.cs">
+      <DependentUpon>Thickness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thickness_summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thickness_summary.Designer.cs">
+      <DependentUpon>Thickness_summary.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="227de7f31e0fec0f6447a587a99325dc7ce865a5.jpg" />
+    <Content Include="Ghabbour_Group_logo.svg %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
