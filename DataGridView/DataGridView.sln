@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView", "DataGridView\DataGridView.csproj", "{A40A320B-7DAC-4396-BDDE-4F0D17B1DCE8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{3E749129-CC5C-4767-8569-97AC1BF5180B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A40A320B-7DAC-4396-BDDE-4F0D17B1DCE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40A320B-7DAC-4396-BDDE-4F0D17B1DCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40A320B-7DAC-4396-BDDE-4F0D17B1DCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40A320B-7DAC-4396-BDDE-4F0D17B1DCE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E749129-CC5C-4767-8569-97AC1BF5180B}.Debug|Any CPU.ActiveCfg = Debug
+		{3E749129-CC5C-4767-8569-97AC1BF5180B}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
