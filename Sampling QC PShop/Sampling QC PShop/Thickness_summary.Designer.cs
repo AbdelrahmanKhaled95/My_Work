@@ -51,7 +51,7 @@
             this.max.Name = "max";
             this.max.Size = new System.Drawing.Size(72, 20);
             this.max.TabIndex = 1;
-            this.max.Text = "Max";
+            this.max.Text = "اكبر درجة";
             this.max.Click += new System.EventHandler(this.max_Click);
             // 
             // min
@@ -60,7 +60,7 @@
             this.min.Name = "min";
             this.min.Size = new System.Drawing.Size(72, 20);
             this.min.TabIndex = 2;
-            this.min.Text = "Min";
+            this.min.Text = "ادنى درجة";
             this.min.Click += new System.EventHandler(this.min_Click);
             // 
             // avg
@@ -69,16 +69,16 @@
             this.avg.Name = "avg";
             this.avg.Size = new System.Drawing.Size(72, 20);
             this.avg.TabIndex = 3;
-            this.avg.Text = "Avg";
+            this.avg.Text = "متوسط";
             this.avg.Click += new System.EventHandler(this.avg_Click);
             // 
             // back
             // 
-            this.back.Location = new System.Drawing.Point(78, 245);
+            this.back.Location = new System.Drawing.Point(78, 248);
             this.back.Name = "back";
             this.back.Size = new System.Drawing.Size(72, 20);
             this.back.TabIndex = 4;
-            this.back.Text = "Back";
+            this.back.Text = "رجوع";
             this.back.Click += new System.EventHandler(this.back_Click);
             // 
             // Thickness_summary

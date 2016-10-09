@@ -26,6 +26,7 @@ namespace Sampling_QC_PShop
             {
                 Main main = new Main();
                 main.Show();
+                 
             }
         
     }

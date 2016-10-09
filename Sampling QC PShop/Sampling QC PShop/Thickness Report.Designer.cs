@@ -50,7 +50,7 @@
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(54, 20);
             this.Back.TabIndex = 3;
-            this.Back.Text = "Back";
+            this.Back.Text = "رجوع";
             this.Back.Click += new System.EventHandler(this.Back_Click_1);
             // 
             // Summary
@@ -59,7 +59,7 @@
             this.Summary.Name = "Summary";
             this.Summary.Size = new System.Drawing.Size(69, 20);
             this.Summary.TabIndex = 5;
-            this.Summary.Text = "Summary";
+            this.Summary.Text = "احصائيات";
             this.Summary.Click += new System.EventHandler(this.Summary_Click);
             // 
             // Thickness_Report

@@ -40,6 +40,8 @@
             this.Adhesion = new System.Windows.Forms.Button();
             this.About = new System.Windows.Forms.Button();
             this.Report = new System.Windows.Forms.Button();
+            this.Admin = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -64,7 +66,7 @@
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 62);
-            this.label1.Text = "Sampling Quality Check Paintshop";
+            this.label1.Text = "تفتيشات الدهان العينات";
             // 
             // Thickness
             // 
@@ -74,7 +76,7 @@
             this.Thickness.Name = "Thickness";
             this.Thickness.Size = new System.Drawing.Size(114, 20);
             this.Thickness.TabIndex = 4;
-            this.Thickness.Text = "Thickness";
+            this.Thickness.Text = "قياس السمك";
             this.Thickness.Click += new System.EventHandler(this.Thickness_Click);
             // 
             // Hardness
@@ -85,7 +87,7 @@
             this.Hardness.Name = "Hardness";
             this.Hardness.Size = new System.Drawing.Size(114, 20);
             this.Hardness.TabIndex = 5;
-            this.Hardness.Text = "Hardness";
+            this.Hardness.Text = "قياس الصلادة";
             this.Hardness.Click += new System.EventHandler(this.Hardness_Click);
             // 
             // Glass
@@ -96,7 +98,7 @@
             this.Glass.Name = "Glass";
             this.Glass.Size = new System.Drawing.Size(114, 20);
             this.Glass.TabIndex = 6;
-            this.Glass.Text = "Gloss";
+            this.Glass.Text = "قياس اللمعية";
             this.Glass.Click += new System.EventHandler(this.Glass_Click);
             // 
             // Adhesion
@@ -107,7 +109,7 @@
             this.Adhesion.Name = "Adhesion";
             this.Adhesion.Size = new System.Drawing.Size(114, 20);
             this.Adhesion.TabIndex = 7;
-            this.Adhesion.Text = "Adhesion";
+            this.Adhesion.Text = "قياس الالتصاق";
             this.Adhesion.Click += new System.EventHandler(this.Adhesion_Click);
             // 
             // About
@@ -129,8 +131,28 @@
             this.Report.Name = "Report";
             this.Report.Size = new System.Drawing.Size(72, 20);
             this.Report.TabIndex = 12;
-            this.Report.Text = "Report";
+            this.Report.Text = "التقارير";
             this.Report.Click += new System.EventHandler(this.Report_Click);
+            // 
+            // Admin
+            // 
+            this.Admin.Location = new System.Drawing.Point(91, 222);
+            this.Admin.Name = "Admin";
+            this.Admin.Size = new System.Drawing.Size(72, 46);
+            this.Admin.TabIndex = 16;
+            this.Admin.Text = "Admin";
+            this.Admin.Click += new System.EventHandler(this.Admin_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button1.Location = new System.Drawing.Point(168, 196);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(72, 20);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "خروج";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Main
             // 
@@ -138,6 +160,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(240, 268);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Admin);
             this.Controls.Add(this.Report);
             this.Controls.Add(this.About);
             this.Controls.Add(this.Adhesion);
@@ -165,6 +189,8 @@
         private System.Windows.Forms.Button Adhesion;
         private System.Windows.Forms.Button About;
         private System.Windows.Forms.Button Report;
+        private System.Windows.Forms.Button Admin;
+        private System.Windows.Forms.Button button1;
     }
 }
 

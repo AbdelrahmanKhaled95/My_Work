@@ -120,51 +120,6 @@
   <metadata name="mainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
   <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
     <value>Pocket_PC</value>
   </metadata>

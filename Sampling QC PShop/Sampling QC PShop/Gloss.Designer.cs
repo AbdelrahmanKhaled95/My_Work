@@ -48,7 +48,7 @@
             this.Primal.Name = "Primal";
             this.Primal.Size = new System.Drawing.Size(100, 20);
             this.Primal.TabIndex = 11;
-            this.Primal.Text = "Primal";
+            this.Primal.Text = "برايمر";
             // 
             // Final
             // 
@@ -56,19 +56,19 @@
             this.Final.Name = "Final";
             this.Final.Size = new System.Drawing.Size(100, 20);
             this.Final.TabIndex = 10;
-            this.Final.Text = "Final";
+            this.Final.Text = "نهائى";
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(3, 4);
+            this.label1.Location = new System.Drawing.Point(136, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 20);
-            this.label1.Text = "Chassis Number:";
+            this.label1.Size = new System.Drawing.Size(84, 20);
+            this.label1.Text = "رقم الشاسية";
             // 
             // chassis2
             // 
-            this.chassis2.Location = new System.Drawing.Point(119, 3);
+            this.chassis2.Location = new System.Drawing.Point(15, 3);
             this.chassis2.MaxLength = 20;
             this.chassis2.Name = "chassis2";
             this.chassis2.Size = new System.Drawing.Size(118, 21);
@@ -82,7 +82,7 @@
             this.label2.Location = new System.Drawing.Point(3, 95);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 31);
-            this.label2.Text = "Gloss";
+            this.label2.Text = "اللمعان";
             // 
             // Back
             // 
@@ -92,7 +92,7 @@
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(72, 28);
             this.Back.TabIndex = 17;
-            this.Back.Text = "Back";
+            this.Back.Text = "رجوع";
             this.Back.Click += new System.EventHandler(this.Back_Click);
             // 
             // Confirm
@@ -103,7 +103,7 @@
             this.Confirm.Name = "Confirm";
             this.Confirm.Size = new System.Drawing.Size(72, 28);
             this.Confirm.TabIndex = 15;
-            this.Confirm.Text = "Save";
+            this.Confirm.Text = "حفظ";
             this.Confirm.Click += new System.EventHandler(this.Confirm_Click_1);
             // 
             // label3
@@ -113,7 +113,7 @@
             this.label3.Location = new System.Drawing.Point(3, 152);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 31);
-            this.label3.Text = "Degree";
+            this.label3.Text = "الزواية";
             // 
             // glossno
             // 
@@ -138,7 +138,7 @@
             this.degree2.Items.Add("45");
             this.degree2.Items.Add("30");
             this.degree2.Items.Add("XX");
-            this.degree2.Location = new System.Drawing.Point(120, 152);
+            this.degree2.Location = new System.Drawing.Point(120, 161);
             this.degree2.Name = "degree2";
             this.degree2.Size = new System.Drawing.Size(100, 22);
             this.degree2.TabIndex = 45;

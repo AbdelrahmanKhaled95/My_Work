@@ -19,6 +19,7 @@
     <FormFactorID>
     </FormFactorID>
     <StartupObject>Sampling_QC_PShop.Program</StartupObject>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -79,6 +80,36 @@
     <Compile Include="Adhesion_Report.Designer.cs">
       <DependentUpon>Adhesion_Report.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delad.Designer.cs">
+      <DependentUpon>delad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delgloss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delgloss.Designer.cs">
+      <DependentUpon>delgloss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delhard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delhard.Designer.cs">
+      <DependentUpon>delhard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delthick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delthick.Designer.cs">
+      <DependentUpon>delthick.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gloss.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +159,21 @@
     <EmbeddedResource Include="Adhesion_Report.resx">
       <DependentUpon>Adhesion_Report.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delad.resx">
+      <DependentUpon>delad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delgloss.resx">
+      <DependentUpon>delgloss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delhard.resx">
+      <DependentUpon>delhard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delthick.resx">
+      <DependentUpon>delthick.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gloss.resx">
       <DependentUpon>Gloss.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +202,9 @@
     <EmbeddedResource Include="Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Server.resx">
+      <DependentUpon>Server.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Thickness Report.resx">
       <DependentUpon>Thickness Report.cs</DependentUpon>
     </EmbeddedResource>
@@ -175,6 +224,12 @@
     </Compile>
     <Compile Include="Report.Designer.cs">
       <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server.Designer.cs">
+      <DependentUpon>Server.cs</DependentUpon>
     </Compile>
     <Compile Include="Thickness Report.cs">
       <SubType>Form</SubType>
@@ -197,6 +252,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="227de7f31e0fec0f6447a587a99325dc7ce865a5.jpg" />
+    <Content Include="favicon.ico" />
     <Content Include="Ghabbour_Group_logo.svg %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />

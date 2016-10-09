@@ -40,7 +40,7 @@
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(72, 20);
             this.Back.TabIndex = 12;
-            this.Back.Text = "Back";
+            this.Back.Text = "رجوع";
             this.Back.Click += new System.EventHandler(this.Back_Click);
             // 
             // dataGrid1

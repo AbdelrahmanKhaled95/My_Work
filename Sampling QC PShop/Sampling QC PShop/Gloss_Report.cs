@@ -15,15 +15,16 @@ namespace Sampling_QC_PShop
         {
             InitializeComponent();
             Report report = new Report();
-            ConnectionString = " Data Source=10.10.11.54,1455;Initial Catalog=SFDB_Sadat_AG_Test_2-6-2016_2;Persist Security Info=True;User ID=vendorAG;Password=vendor@01";
+            Server server = new Server();
+            ConnectionString = server.getServer();
             Conn = new SqlConnection();
             Conn.ConnectionString = ConnectionString;
             Conn.Open();
             SqlCommand cmd = new SqlCommand("last103", Conn);
             cmd.CommandType = CommandType.StoredProcedure;
             SqlDataAdapter da = new SqlDataAdapter(cmd);
-            cmd.Parameters.Add(new SqlParameter("@from", report.getDate()));
-            cmd.Parameters.Add(new SqlParameter("@to", report.getDateTimePicker1()));
+            cmd.Parameters.Add(new SqlParameter("@from", report.getFrom()));
+            cmd.Parameters.Add(new SqlParameter("@to", report.getTo()));
             dt = new DataTable();
             da.Fill(dt);
             dataGrid1.DataSource = dt;
@@ -44,6 +45,7 @@ namespace Sampling_QC_PShop
         {
             Report main = new Report();
             main.Show();
+             
         }
         
         private void Details_Click_1(object sender, EventArgs e)

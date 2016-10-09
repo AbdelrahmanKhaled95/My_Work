@@ -20,13 +20,15 @@ namespace Sampling_QC_PShop
         {
             Thickness_Report back = new Thickness_Report();
             back.Show();
+             ;
         }
         public static SqlConnection Conn;
         private static string ConnectionString = string.Empty;
         DataTable dt;
         private void max_Click(object sender, EventArgs e)
         {
-            ConnectionString = " Data Source=10.10.11.54,1455;Initial Catalog=SFDB_Sadat_AG_Test_2-6-2016_2;Persist Security Info=True;User ID=vendorAG;Password=vendor@01";
+            Server server = new Server();
+            ConnectionString = server.getServer();
             Conn = new SqlConnection();
             Conn.ConnectionString = ConnectionString;
             Conn.Open();

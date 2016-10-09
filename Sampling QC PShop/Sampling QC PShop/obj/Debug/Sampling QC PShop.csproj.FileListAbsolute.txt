@@ -35,3 +35,9 @@ C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sam
 C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Login.resources
 C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\bin\Debug\Sampling QC PShop.exe
 C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling QC PShop.exe
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Server.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.Admin.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.delad.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.delgloss.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.delhard.resources
+C:\Users\Abdelrahman\Documents\Visual Studio 2008\Projects\Sampling QC PShop\Sampling QC PShop\obj\Debug\Sampling_QC_PShop.delthick.resources

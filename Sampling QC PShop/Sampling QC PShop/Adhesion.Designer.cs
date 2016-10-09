@@ -46,7 +46,7 @@
             this.Primal.Name = "Primal";
             this.Primal.Size = new System.Drawing.Size(100, 20);
             this.Primal.TabIndex = 7;
-            this.Primal.Text = "Primal";
+            this.Primal.Text = "برايمر";
             // 
             // Final
             // 
@@ -54,20 +54,20 @@
             this.Final.Name = "Final";
             this.Final.Size = new System.Drawing.Size(100, 20);
             this.Final.TabIndex = 6;
-            this.Final.Text = "Final";
+            this.Final.Text = "نهائى";
             this.Final.CheckedChanged += new System.EventHandler(this.Final_CheckedChanged);
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(0, 21);
+            this.label1.Location = new System.Drawing.Point(157, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 20);
-            this.label1.Text = "Chassis Number:";
+            this.label1.Size = new System.Drawing.Size(83, 20);
+            this.label1.Text = "رقم الشاسية";
             // 
             // chassis3
             // 
-            this.chassis3.Location = new System.Drawing.Point(113, 20);
+            this.chassis3.Location = new System.Drawing.Point(11, 20);
             this.chassis3.MaxLength = 20;
             this.chassis3.Name = "chassis3";
             this.chassis3.Size = new System.Drawing.Size(127, 21);
@@ -81,7 +81,7 @@
             this.label2.Location = new System.Drawing.Point(70, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 22);
-            this.label2.Text = "Adhesion";
+            this.label2.Text = "الاتصاق";
             // 
             // Back
             // 
@@ -91,7 +91,7 @@
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(72, 28);
             this.Back.TabIndex = 16;
-            this.Back.Text = "Back";
+            this.Back.Text = "رجوع";
             this.Back.Click += new System.EventHandler(this.Back_Click_1);
             // 
             // Confirm
@@ -102,7 +102,7 @@
             this.Confirm.Name = "Confirm";
             this.Confirm.Size = new System.Drawing.Size(72, 28);
             this.Confirm.TabIndex = 15;
-            this.Confirm.Text = "Save";
+            this.Confirm.Text = "حفظ";
             this.Confirm.Click += new System.EventHandler(this.Confirm_Click_1);
             // 
             // OK

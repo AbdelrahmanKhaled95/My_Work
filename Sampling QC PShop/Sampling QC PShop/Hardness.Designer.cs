@@ -46,7 +46,7 @@
             this.Primal.Name = "Primal";
             this.Primal.Size = new System.Drawing.Size(100, 20);
             this.Primal.TabIndex = 7;
-            this.Primal.Text = "Primal";
+            this.Primal.Text = "برايمر";
             // 
             // Final
             // 
@@ -54,15 +54,15 @@
             this.Final.Name = "Final";
             this.Final.Size = new System.Drawing.Size(100, 20);
             this.Final.TabIndex = 6;
-            this.Final.Text = "Final";
+            this.Final.Text = "نهائى";
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(3, 4);
+            this.label1.Location = new System.Drawing.Point(137, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 20);
-            this.label1.Text = "Chassis Number:";
+            this.label1.Size = new System.Drawing.Size(94, 20);
+            this.label1.Text = "رقم الشاسية";
             // 
             // label2
             // 
@@ -71,7 +71,7 @@
             this.label2.Location = new System.Drawing.Point(13, 124);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 22);
-            this.label2.Text = "Hardness";
+            this.label2.Text = "الصلادة";
             // 
             // hardnesscombo
             // 
@@ -93,7 +93,7 @@
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(72, 28);
             this.Back.TabIndex = 16;
-            this.Back.Text = "Back";
+            this.Back.Text = "رجوع";
             this.Back.Click += new System.EventHandler(this.Back_Click_1);
             // 
             // Confirm
@@ -104,12 +104,12 @@
             this.Confirm.Name = "Confirm";
             this.Confirm.Size = new System.Drawing.Size(72, 28);
             this.Confirm.TabIndex = 15;
-            this.Confirm.Text = "Save";
+            this.Confirm.Text = "حفظ";
             this.Confirm.Click += new System.EventHandler(this.Confirm_Click_1);
             // 
             // chassis2
             // 
-            this.chassis2.Location = new System.Drawing.Point(119, 3);
+            this.chassis2.Location = new System.Drawing.Point(13, 3);
             this.chassis2.MaxLength = 20;
             this.chassis2.Name = "chassis2";
             this.chassis2.Size = new System.Drawing.Size(118, 21);
